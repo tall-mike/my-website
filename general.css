@@ -1,0 +1,58 @@
+.container {
+  /* 1140px */
+  max-width: 120rem;
+  padding: 0 3.2rem;
+  margin: 0 auto;
+}
+.grid {
+  display: grid;
+  column-gap: 6.4rem;
+  row-gap: 9.6rem;
+}
+
+.grid--2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+/* **************************************** */
+.icon a {
+  color: rgba(169, 169, 169, 1); /* Ash color for all icons */
+  font-size: 2.5rem;
+  transition: color 0.3s ease;
+}
+
+.icon a:hover {
+  color: white; /* Change the color of icons to white on hover */
+}
+
+/* Hover effects for specific social media icons */
+.icon a[href*="wa.me"] {
+  color: #6f6f6f; /* WhatsApp icon color */
+}
+
+.icon a[href*="wa.me"]:hover {
+  color: #128c7e; /* WhatsApp icon color when hovered */
+}
+
+.icon a[href*="twitter.com"] {
+  color: #6f6f6f; /* Twitter icon color */
+}
+
+.icon a[href*="twitter.com"]:hover {
+  color: #14171a; /* Twitter icon color when hovered */
+}
+
+.icon a[href*="tiktok.com"] {
+  color: #6f6f6f; /* TikTok icon color */
+}
+
+.icon a[href*="tiktok.com"]:hover {
+  color: #010101; /* TikTok icon color when hovered */
+}
+
+.icon a[href*="mailto"] {
+  color: #6f6f6f; /* Mail icon color */
+}
+
+.icon a[href*="mailto"]:hover {
+  color: #ff4500; /* Mail icon color when hovered */
+}

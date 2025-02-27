@@ -1,0 +1,327 @@
+/* Large Desktop (1344px) */
+@media (max-width: 84rem) {
+  .header-1 {
+    padding: 0 2rem;
+  }
+  .logo-written {
+    margin-left: 6rem;
+  }
+  .navigation {
+    right: 6rem;
+  }
+  .text {
+    margin-left: 6rem;
+  }
+  .header-content {
+    margin-left: 6rem;
+  }
+  .section-header {
+    font-size: 5.5rem;
+    max-width: 85%;
+  }
+  .next-section-btn {
+    margin-left: 6rem;
+  }
+  .header-2 {
+    padding: 2rem 6rem;
+  }
+  .about-me {
+    padding: 3rem 6rem;
+    max-width: 100%; /* Your existing padding */
+  }
+  .about-me h2 {
+    font-size: 3.5rem;
+  }
+
+  .about-me p {
+    font-size: 2rem;
+  }
+
+  .skills h3 {
+    font-size: 2.2rem;
+  }
+
+  .skills li {
+    font-size: 1.6rem;
+  }
+
+  .cv-btn,
+  .projects-btn {
+    font-size: 1.8rem;
+    padding: 1rem 3rem;
+  }
+}
+
+/* Desktop to Tablet (1200px) */
+@media (max-width: 75rem) {
+  .logo-written {
+    margin: 4rem 0 0 4rem;
+  }
+  .navigation {
+    right: 4rem;
+    font-size: 1.8rem;
+  }
+  .text {
+    margin: 3rem 0 0 4rem;
+    font-size: 1.8rem;
+  }
+  .header-content {
+    margin-left: 4rem;
+  }
+  .section-header {
+    font-size: 5rem;
+  }
+  .next-section-btn {
+    margin: 3rem 0 0 4rem;
+    padding: 0.9rem 3.5rem;
+    font-size: 1.8rem;
+  }
+  .header-2 {
+    padding: 1.5rem 4rem;
+  }
+  .about-me {
+    padding: 2.5rem 4rem;
+  }
+  .about-me h2 {
+    font-size: 3.5rem;
+  }
+  .about-me p {
+    font-size: 1.6rem;
+  }
+  .skills h3 {
+    font-size: 2.2rem;
+  }
+  .skills li {
+    font-size: 1.6rem;
+  }
+  .cv-btn,
+  .projects-btn {
+    font-size: 1.8rem;
+    padding: 0.9rem 3.5rem;
+  }
+}
+
+/* Tablet (944px) */
+@media (max-width: 59rem) {
+  .header-1 {
+    height: auto;
+    padding: 1rem 2rem 2rem;
+  }
+  .logo-written {
+    margin: 2rem 0 0 0;
+    font-size: 2.5rem;
+  }
+
+  .navigation {
+    position: absolute;
+    right: 5rem;
+    top: 1.5rem;
+    font-size: 1.9rem;
+    gap: 1rem;
+    flex-direction: row;
+    align-items: center;
+  }
+  .text {
+    margin-top: 6rem;
+    margin: 4rem 0 0 2rem;
+    font-size: 1.6rem;
+  } /* More top space */
+  .header-content {
+    margin: 1.5rem 0 0 2rem;
+    padding-right: 2rem;
+  } /* Balanced */
+  .section-header {
+    font-size: 3.5rem;
+    max-width: 90%;
+    line-height: 1.1;
+  } /* Smaller text */
+  .next-section-btn {
+    margin-top: 6rem;
+
+    padding: 0.7rem 2.5rem;
+    font-size: 1.5rem;
+  }
+
+  .header-2 {
+    padding: 1rem 2rem;
+  } /* Consistent padding */
+  .about-me {
+    padding: 1.5rem 2rem;
+    max-width: 100%;
+  } /* Reduced padding */
+  .about-me h2 {
+    font-size: 2.8rem;
+    margin-bottom: 1.5rem;
+  } /* Smaller, spaced */
+  .about-me p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+  } /* Readable */
+  .skills h3 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+  }
+  .skills ul {
+    gap: 1.5rem;
+  } /* Tighter skills list */
+  .skills li {
+    font-size: 1.4rem;
+    padding: 0.4rem 0.8rem;
+  }
+  .buttons {
+    margin-top: 2.5rem;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+  } /* Adjusted buttons */
+  .cv-btn,
+  .projects-btn {
+    font-size: 1.5rem;
+    padding: 0.7rem 2rem;
+  }
+}
+/* Small Phones (544px) */
+@media (max-width: 34rem) {
+  /* Index.html (Landing Page) */
+  .header-1 {
+    height: auto;
+    padding: 1rem 2rem 2rem;
+  }
+  .logo-written {
+    margin: 1rem 0 0 0;
+    font-size: 2rem;
+  }
+  .navigation {
+    position: absolute;
+    right: 2rem;
+    top: 1rem;
+    font-size: 1.2rem;
+    display: flex;
+    gap: 0.5rem;
+    flex-direction: row;
+    align-items: center;
+  }
+  .icon a {
+    font-size: 1.6rem;
+  }
+  .text {
+    margin: 4rem 0 0 1rem;
+    font-size: 1.4rem;
+  }
+  .header-content {
+    margin: 1rem 0 0 1rem;
+    padding-right: 2rem;
+  }
+  .section-header {
+    font-size: 2.5rem;
+    max-width: 90%;
+    line-height: 1.1;
+  }
+  .next-section-btn {
+    margin: 2rem 0 2rem 1rem;
+    padding: 0.5rem 1.5rem;
+    font-size: 1.2rem;
+  }
+
+  /* Next.html (About Page) */
+  .header-2 {
+    padding: 1rem 2rem;
+  }
+  .about-me {
+    padding: 1rem 2rem;
+  }
+  .about-me h2 {
+    font-size: 2rem;
+  }
+  .about-me p {
+    font-size: 1.3rem;
+  }
+  .skills h3 {
+    font-size: 1.6rem;
+  }
+  .skills li {
+    font-size: 1.3rem;
+    padding: 0.3rem 0.6rem;
+  }
+  .buttons {
+    gap: 2rem;
+    font-size: 1.8rem;
+    margin-top: 3rem;
+  }
+  .cv-btn,
+  .projects-btn {
+    font-size: 1.6rem;
+    padding: 0.4rem 0.5rem;
+  } /* Tighter padding */
+}
+/* Mobile (up to 430px) */
+@media (max-width: 43rem) {
+  /* Index.html (Landing Page) */
+  .header-1 {
+    height: auto;
+    padding: 1rem 2rem 2rem;
+  }
+  .logo-written {
+    margin: 1rem 0 0 0;
+    font-size: 2rem;
+  }
+  .navigation {
+    right: 2rem;
+    top: 1rem;
+    font-size: 1.2rem;
+    gap: 0.5rem;
+    flex-direction: row;
+    align-items: center;
+  }
+  .icon a {
+    font-size: 1.6rem;
+  }
+  .text {
+    margin: 4rem 0 0 1rem;
+    font-size: 1.4rem;
+  }
+  .header-content {
+    margin: 1rem 0 0 1rem;
+    padding-right: 2rem;
+  }
+  .section-header {
+    font-size: 2.5rem;
+    max-width: 90%;
+    line-height: 1.1;
+  }
+  .next-section-btn {
+    margin: 2rem 0 2rem 1rem;
+    padding: 0.5rem 1.5rem;
+    font-size: 1.2rem;
+  }
+
+  /* Next.html (About Page) */
+  .header-2 {
+    padding: 1rem 2rem;
+  }
+  .about-me {
+    padding: 1rem 2rem;
+  }
+  .about-me h2 {
+    font-size: 2rem;
+  }
+  .about-me p {
+    font-size: 1.3rem;
+  }
+  .skills h3 {
+    font-size: 1.6rem;
+  }
+  .skills li {
+    font-size: 1.3rem;
+    padding: 0.3rem 0.6rem;
+  }
+  .buttons {
+    flex-direction: column;
+    gap: 0.8rem;
+    margin-top: 2rem;
+  }
+  .cv-btn,
+  .projects-btn {
+    font-size: 1rem;
+    padding: 0.4rem 0.5rem;
+  }
+}

@@ -1,0 +1,248 @@
+/* Global reset */
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "poppins", sans-serif;
+  width: 100%;
+  min-height: 100vh;
+}
+
+/* general css */
+
+/* 8***************************************************** */
+/* section 1, the landing page */
+.header-1 {
+  background: linear-gradient(
+    to right,
+    rgba(0, 51, 102, 1) 70%,
+    rgba(45, 87, 130, 0.667) 70%
+  );
+  min-height: 100vh;
+  width: 100%;
+  margin: 0;
+}
+.logo {
+  color: #fff;
+  display: flex;
+  align-self: flex-start;
+
+  margin-left: 9rem;
+}
+.logo-written {
+  margin-top: 5rem;
+  font-size: 3rem;
+  font-weight: 500;
+  margin-bottom: 8rem;
+}
+/* .navigation {
+  font-size: 2rem;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 9rem;
+  margin-top: 2rem;
+  margin-right: 9rem;
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+} */
+
+.navigation {
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+}
+.contact-and-icons {
+  display: flex;
+  font-weight: 800;
+  align-items: center;
+}
+.contact {
+  cursor: pointer;
+  margin-right: 1rem;
+}
+.icon {
+  margin-left: 1rem;
+  gap: 1rem;
+}
+
+.text {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 500;
+  display: flex;
+  align-self: flex-end;
+  margin-top: 4rem;
+  margin-left: 9rem;
+}
+
+.section-header {
+  font-size: 8rem;
+  font-weight: 800;
+  color: #fff;
+  flex: 1;
+  margin-top: 0;
+}
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+  gap: 5rem;
+  margin-left: 9rem;
+}
+
+.next-section-btn {
+  font-size: 2rem;
+  font-weight: 500;
+  padding: 1rem 4rem;
+  background-color: rgba(0, 51, 102, 1);
+  color: #fff;
+  padding: 1 2rem;
+  display: flex;
+  align-items: center;
+  margin-top: 4rem;
+  margin-left: 9rem;
+  gap: 1rem;
+  outline: none;
+  border-radius: 9px;
+  cursor: pointer;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+.next-section-btn:hover {
+  background-color: rgba(45, 87, 130, 0.667);
+
+  transition: background-color 0.5s ease;
+}
+.next-section-btn a i {
+  margin-left: 1rem;
+  color: black;
+  background-color: rgba(0, 51, 102, 1);
+  padding: 0.5rem;
+  border-radius: 50%;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.next-section-btn a:hover i {
+  background-color: black;
+  color: white;
+}
+.arrow-icon i {
+  padding: 0.5rem;
+  border-radius: 50%;
+  background-color: #fff;
+  color: rgba(0, 51, 102, 1);
+  animation: pulse 1.5s infinite;
+}
+.web-developer-text {
+  color: #fff;
+  text-transform: capitalize;
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-weight: 500;
+  margin-top: 4rem;
+  transition: color 0.3s ease;
+}
+.web-developer-text:hover {
+  color: white;
+}
+
+/* Section 2 */
+
+/* Header 2 */
+.header-2 {
+  background: rgba(0, 51, 102, 1);
+  padding: 2rem 9rem;
+}
+
+.logo-written {
+  color: #fff;
+  font-size: 3rem;
+  font-weight: 500;
+}
+
+.about-me {
+  padding: 4rem 9rem;
+  max-width: 120rem;
+
+  margin: 0 auto;
+  opacity: 0;
+
+  animation: fadeIn 2s ease forwards 0.5s;
+}
+.about-me h2 {
+  font-size: 4rem;
+  font-weight: 700;
+  color: #003366;
+  margin-bottom: 2rem;
+}
+.about-me p {
+  font-size: 1.8rem;
+  color: #333;
+  line-height: 1.6;
+  margin-bottom: 3rem;
+}
+.skills h3 {
+  font-size: 2.5rem;
+  color: #003366;
+  margin-bottom: 1rem;
+}
+.skills ul {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+.skills li {
+  font-size: 1.8rem;
+  background: #003366;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+}
+.buttons {
+  margin-top: 4rem;
+  display: flex;
+  gap: 2rem;
+}
+.cv-btn,
+.projects-btn {
+  font-size: 2rem;
+  padding: 1rem 4rem;
+  background-color: rgba(0, 51, 102, 1);
+  color: #fff;
+  border-radius: 9px;
+  text-transform: uppercase;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+.cv-btn:hover,
+.projects-btn:hover {
+  transform: translateY(-5px) scale(1.05);
+  background-color: rgba(45, 87, 130, 0.667);
+}
+
+/* Animations */
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+@keyframes pulse {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(5px);
+  }
+}
